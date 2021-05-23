@@ -47,7 +47,7 @@ plainwhite:
     linkedIn: in/mnadobnik/
 
 # Build settings
-theme: plainwhite
+# theme: plainwhite
 remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-feed
