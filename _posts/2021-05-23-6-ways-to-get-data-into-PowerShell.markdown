@@ -36,7 +36,7 @@ The JSON files are worth using as configuration parameters for more complex scri
 
 Use the ConvertFrom-Json command to convert content into an object.
 
-```
+```powershell
 # json file
 '{
     "TEST": {
