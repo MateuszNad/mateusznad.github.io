@@ -48,6 +48,7 @@ plainwhite:
 
 # Build settings
 theme: plainwhite
+remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-feed
 # Exclude from processing.
