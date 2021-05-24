@@ -12,7 +12,7 @@ A CSV is a file with comma-separated values. A lot of systems and applications e
 
 A value of each column will be separated by a comma and each new row will be in a new line. The simple structure allows for creating your file like that. You can use a simple notepad to prepare the file. See for instance using a native PowerShell command to get data from CSV.
 
-![Data from a CSV file](../assets/images/data-from-csv.png)
+![Data from a CSV file](/assets/images/data-from-csv.png)
 
 CSV files very often are used as a batch for massive operation, for instance, scanning a specific list of virtual machines or processing Active Directory’s objects.
 
@@ -62,7 +62,7 @@ Use the ConvertFrom-Json command to convert content into an object.
 $Settings = Get-Content -Path C:\Temp\settings.json | ConvertFrom-Json
 $Settings.TEST
 ```
-![Data from JSON file](../assets/images/data-from-json.png)
+![Data from JSON file](/assets/images/data-from-json.png)
 ## 3. Getting data from a database
 When we talk about data, I have to mention databases. PowerShell allows us to read, write and process data from a relational database, for instance, SQL Server.
 
@@ -146,7 +146,7 @@ $param = @{
 ## 5. Data from websites
 We can also use PowerShell to download data from websites, also known as web scraping.
 
-![Data from website](../assets/images/data-from-websites.png)
+![Data from website](/assets/images/data-from-websites.png)
 
 ```powershell
 $ContentAP = Invoke-WebRequest 'https://akademiapowershell.pl'
