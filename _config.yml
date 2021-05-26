@@ -47,8 +47,8 @@ plainwhite:
     linkedIn: in/mnadobnik/
 
 # Build settings
-theme: plainwhite
-# remote_theme: MateuszNad/plainwhite-jekyll
+# theme: plainwhite
+remote_theme: MateuszNad/plainwhite-jekyll
 plugins:
   - jekyll-feed
   # - jekyll-seo-tag
