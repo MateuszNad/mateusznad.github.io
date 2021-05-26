@@ -2,7 +2,7 @@
 layout: post
 title:  "PowerShell profile file in Azure Cloud Shell"
 date:   2021-05-20 20:00:39 +0200
-categories: powershell, azure
+categories: powershell azure
 ---
 
 I prefer to work on my machine. It’s the place where I have got exactly everything that I need. In the way that I need. For instance, Powershell gives us the ability to personalize by profile files. These files enable us to add commands, scripts that will be executed every time when a new console is started.
@@ -62,11 +62,11 @@ You can do it that way.
 cd ~
 code ./.config/PowerShell/profile.ps1
 ```
-![Creating the profile file in Azure Cloud Shell](../assets/images/azure-cloud-shell-profile.png)
+![Creating the profile file in Azure Cloud Shell](/assets/images/azure-cloud-shell-profile.png)
 
 > The script returns only new information that was published the day before. Additionally, I modified the result by using Show-Markdown function to make it look better. (of course in my opinion 😉
 
-![Azure blog](../assets/images/Azure-news.png)
+![Azure blog](/assets/images/Azure-news.png)
 
 By using this simple way I will always be up-to-date.
 

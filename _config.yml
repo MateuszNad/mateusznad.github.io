@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: mnadobnik blog
+title: mnadobnik
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  PowerShell
+  The blog is driven by an enormous passion for PowerShell and Azure technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mateusznad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -29,7 +29,7 @@ github_username: MateuszNad
 
 plainwhite:
   name: Mateusz Nadobnik
-  tagline: Automator
+  tagline: PowerShell 💙 | Problem Solver | Automator | Azure enthusiast
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
