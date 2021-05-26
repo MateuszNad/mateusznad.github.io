@@ -5,17 +5,17 @@ date:   2021-05-26 20:00:00 +0200
 categories: powershell
 ---
 
-The number of collected modules and their new versions while working with PowerShell can be surprising. Personally, I use in most of the cases only the up-to-date versions of modules therefore The previous ones only take disk space.
+The number of collected modules and their new versions while working with PowerShell can be surprising. Personally, I use in most of the cases only the up-to-date versions of modules therefore the previous ones only take disk space.
 
 Because the beginning of the year is a good moment to clean up, I would like to recommend you to use a PSModuleManager module. I want to show you 3 functions that will ease managing PowerShell modules
 
 ## Why PSModuleManager?
 
-The functions of this module were created to complement the ability of native commands such as Get-Module, Update-Module, and Uninstall-Module. Thanks to them I easily update and remove the old version of the PowerShell modules.
+The functions of this module were created to complement the ability of native commands such as ```Get-Module, Update-Module, and Uninstall-Module```. Thanks to them I easily update and remove the old version of the PowerShell modules.
 
 ## Fetching list of module
 
-You can get a list of modules using either Get-Module or Get-InstalledModule. The commands don’t return information which I need.
+You can get a list of modules using either ```Get-Module``` or ```Get-InstalledModule```. The commands don’t return information which I need.
 
 Hence my idea of writing a new Get-PSInstalledModule command that returns a number of versions for each module and information about space used on disk. You can execute it for CurrentUser and AllUsers area.
 
@@ -139,7 +139,7 @@ Get-PSInstalledModule -Scope AllUsers | Out-GridView -OutputMode Multiple | Unin
 # Get-PSInstalledModule -Scope AllUsers | Out-GridView -OutputMode Multiple | Uninstall-PSOlderModule -Verbose
 ```
 
-![PSModuleManager](/_site/assets/images/psmodulemanager-powershell.gif)
+![PSModuleManager](/assets/images/psmodulemanager-powershell.gif)
 
 ## Recap (installing the module)
 
