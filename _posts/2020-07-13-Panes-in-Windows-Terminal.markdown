@@ -2,7 +2,7 @@
 layout: post
 title:  "Panes in Windows Terminal"
 date:   2020-07-13 20:00:39 +0200
-categories: powershell azure
+categories: powershell tools
 ---
 Windows Terminal is great and split panes are one of the best functions of this tool. We can split our work area how we want and avoid the need for switching between tabs.
 
