@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PowerShell"
+title:  "PSModuleManager"
 date:   2021-05-26 20:00:00 +0200
 categories: powershell
 ---
@@ -8,7 +8,6 @@ categories: powershell
 The number of collected modules and their new versions while working with PowerShell can be surprising. Personally, I use in most of the cases only the up-to-date versions of modules therefore The previous ones only take disk space.
 
 Because the beginning of the year is a good moment to clean up, I would like to recommend you to use a PSModuleManager module. I want to show you 3 functions that will ease managing PowerShell modules
-
 
 ## Why PSModuleManager?
 
