@@ -36,7 +36,7 @@ Get-PSInstalledModule | Measure-Object -Property SpaceUsedMb -Sum
 # zakres AllUsers
 Get-PSInstalledModule -Scope AllUsers | Measure-Object -Property SpaceUsedMb -Sum
 ```
-![how much space take currently installed modules](../_site/assets/images/spaceused-powershell-module.png)
+![how much space take currently installed modules](/assets/images/spaceused-powershell-module.png)
 
 Other examples if using the Get-PSInstalledModule command.
 
@@ -84,7 +84,7 @@ The command checks the availability of a new version for each module and updates
 ```powershell
 Get-PSInstalledModule | Update-PSModule -Verbose -Force
 ```
-![Update PowerShell Module](/_site/assets/images/update-powershell-module.png)
+![Update PowerShell Module](/assets/images/update-powershell-module.png)
 
 Examples of commands:
 
