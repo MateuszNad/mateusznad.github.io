@@ -9,9 +9,7 @@ Somebody has asked me how he could pass in safe way authorization data to execut
 
 In a case like that the best solution is creating a service principal (SP) with a certificate (self-signed). Everything is very well described [here](https://docs.microsoft.com/en-US/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 
-If you search for a ready-to-go PowerShell script to create a service principal and add a directory role from Azure Active Directory, you are at a good place.
-
-Of course, you must log into an account that has got a permission to create a new service principal.
+If you search for a ready-to-go PowerShell script to create a service principal and add a directory role from Azure Active Directory, you are at a good place. Of course, you must log into an account that has got a permission to create a new service principal.
 
 > ... your account must have Microsoft.Authorization/*/Write access to assign a role to an AD app. This action is granted through the Owner role or User Access Administrator role
 > ###### https://docs.microsoft.com/en-US/azure/active-directory/develop/howto-create-service-principal-portal#check-azure-subscription-permissions
@@ -40,9 +38,7 @@ The script will prepare an account which you would use to automate other scripts
 
 > The certificate will be saved to a personal certificate store (Cert:\CurrentUser\My) and to a location from an OutPath parameter.
 
-If you need the certificate to be in another place, import it into a new host. Don't forget about the password :)
-
-The last line of the script returns a complete command with parameters that you can use in your scheduled task.
+If you need the certificate to be in another place, import it into a new host. Don't forget about the password 😄. The last line of the script returns a complete command with parameters that you can use in your scheduled task.
 
 ```powershell
 Connect-AzureAD -TenantId '0c000b33-0000-46ea-9df2-1d0000efb01' -ApplicationId '9000327b-0000-000-000-7b26589ec7d0' -CertificateThumbprint 'EDAA0ABBCE98C035223DE5A971BB74820656457F'
