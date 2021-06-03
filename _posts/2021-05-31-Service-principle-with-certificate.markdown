@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PowerShell function to create a service principal with a certificate"
-date:   2021-06-03 20:00:00 +0200
+date:   2021-06-03 21:00:00 +0200
 categories: powershell azure
 ---
 
