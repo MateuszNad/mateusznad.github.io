@@ -41,9 +41,12 @@ The script will prepare an account which you would use to automate other scripts
 If you need the certificate to be in another place, import it into a new host. Don't forget about the password 😄. The last line of the script returns a complete command with parameters that you can use in your scheduled task.
 
 ```powershell
-Connect-AzureAD -TenantId '0c000b33-0000-46ea-9df2-1d0000efb01' -ApplicationId '9000327b-0000-000-000-7b26589ec7d0' -CertificateThumbprint 'EDAA0ABBCE98C035223DE5A971BB74820656457F'
+Connect-AzureAD -TenantId '0c000b33-0000-46ea-9df2-1d0000efb01'`
+-ApplicationId '9000327b-0000-000-000-7b26589ec7d0'`
+-CertificateThumbprint 'EDAA0ABBCE98C035223DE5A971BB74820656457F'
 ```
 
+The New-AzureADServicePrincipalWithCertificate function:
 
 ```powershell
 <#
