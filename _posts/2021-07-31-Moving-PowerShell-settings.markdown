@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to transfer your PowerShell goods to a new device?"
+title:  "How to transfer your PowerShell goods to a new device"
 date:   2021-07-31 20:00:00 +0200
 categories: powershell
 ---
