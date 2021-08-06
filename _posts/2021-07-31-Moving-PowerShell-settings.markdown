@@ -91,10 +91,13 @@ $ModuleJson
     }
 }
 ```
+
+Run the function like that.
+
 ```powershell
 New-PSDependFile -Path 'C:\source\module.depend.psd1'
 # Example with exclude
-New-PSDependFile -Path 'C:\source\module.depend.psd1' -Exclude '*Az*'
+# New-PSDependFile -Path 'C:\source\module.depend.psd1' -Exclude '*Az*'
 ```
 
 Before we can use the prepared file, we have to install the PSDepend module manually on the destined computer.
