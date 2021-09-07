@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to fast catch up on modules that you need in Azure Automation"
-date:   2021-08-26 20:00:00 +0200
+date:   2021-09-08 20:00:00 +0200
 categories: powershell
 ---
 
