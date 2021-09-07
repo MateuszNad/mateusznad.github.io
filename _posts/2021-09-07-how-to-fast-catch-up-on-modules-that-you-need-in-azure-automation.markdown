@@ -5,7 +5,7 @@ date:   2021-09-08 20:00:00 +0200
 categories: powershell
 ---
 
-I don't know how you but if I create a new runbook for Azure Automation, I've made it on my device, and then moved a script to the Azure service.
+I don't know how you but if I create new runbook for Azure Automation, I make it on my device, and then moved a script to the Azure service.
 For me, that approach is easier and faster. I can check the results of working and debug problems in my runtime if ones appear.
 
 Of course, in my local workstation, I've got available a lot of PowerShell modules, and I don't overthink whether a used function will be available on a destinated Azure Automation.
