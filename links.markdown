@@ -11,3 +11,7 @@ permalink: /links/
 
 ### Visual Studio Code - Snippet
 [snippet generator](https://snippet-generator.app)
+
+## PowerShell Modules
+
+🚀 [Microsoft.PowerShell.ConsoleGuiTools](https://www.powershellgallery.com/packages/Microsoft.PowerShell.ConsoleGuiTools) - Cross-platform Console Gui Tools for PowerShell (Out-ConsoleGridView) 
